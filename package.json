@@ -1,27 +1,36 @@
 {
-  "name": "goit-js-module_8.2_webpack_repeta",
+  "name": "js-22",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "- [Webpack](https://webpack.js.org/)   - точка входа   - точка вывода   - загрузчики   - плагины",
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreyHerzhov/goit-js-Module_8.2_WebPack_Repeta.git"
+    "url": "git+https://github.com/luxplanjay/js-22.git"
   },
   "keywords": [],
-  "author": "Andrey Herzhov <andreyherzhov@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndreyHerzhov/goit-js-Module_8.2_WebPack_Repeta/issues"
+    "url": "https://github.com/luxplanjay/js-22/issues"
   },
-  "homepage": "https://github.com/AndreyHerzhov/goit-js-Module_8.2_WebPack_Repeta#readme",
+  "homepage": "https://github.com/luxplanjay/js-22#readme",
   "devDependencies": {
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
-  }
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "main": "webpack.config.js"
 }
-
-
- 

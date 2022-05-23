@@ -1,1 +1,7 @@
-# goit-js-Module_8.2_WebPack_Repeta
+# js-22
+
+- [Webpack](https://webpack.js.org/)
+  - точка входа
+  - точка вывода
+  - загрузчики
+  - плагины
