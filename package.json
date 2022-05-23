@@ -1,0 +1,27 @@
+{
+  "name": "goit-js-module_8.2_webpack_repeta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyHerzhov/goit-js-Module_8.2_WebPack_Repeta.git"
+  },
+  "keywords": [],
+  "author": "Andrey Herzhov <andreyherzhov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyHerzhov/goit-js-Module_8.2_WebPack_Repeta/issues"
+  },
+  "homepage": "https://github.com/AndreyHerzhov/goit-js-Module_8.2_WebPack_Repeta#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
+
+
+ 
